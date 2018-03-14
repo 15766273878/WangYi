@@ -1,0 +1,129 @@
+
+// 变量的设置
+// 750px   15 ====  1px  1/50 rem 
+@r:50rem;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.head{ 
+    width: 750/@r;
+    height: 120/@r;
+    background-color: gray;
+    position: fixed;
+    top: 0/@r;
+    li{
+      width:240/@r; 
+      height:120/@r;
+      text-align: center;
+      line-height:120/@r;
+//    background-color: green; 
+      margin-right: 10/@r;
+      float: left;
+      color: white;
+      font-size: 42/@r;
+    }
+    li:nth-child(2) i{
+        margin-right: 20/@r;
+    }
+}
+.nav{
+    width: 750/@r;
+    height: 110/@r;
+    border-bottom: 1/@r solid  gainsboro;
+    position: fixed;
+    top: 120/@r;
+    background-color: white;
+    ul{
+        list-style-type: none;
+        li{
+            width:187/@r;
+            height:110/@r;
+            line-height: 110/@r;
+            text-align: center;
+//          background-color: #008000;
+            float:left;
+            font-size: 30/@r;
+        }
+        li:first-child{
+            color: red;
+        }
+        li:nth-child(2){
+            i{
+                font-size: 20/@r;
+            }
+            i:nth-child(1){
+                position: relative;
+                top: -10/@r;
+            }
+            i:nth-child(2){
+                position: relative;
+                top:7/@r;
+                left: -30/@r;
+                color: red;
+            } 
+        } 
+    }
+}
+
+.contain{
+   width: 750/@r;
+   margin-top:230/@r ;
+    ul{
+        li{
+           width: 750/@r; 
+           height: 300/@r;
+           border-bottom: 1/@r solid gainsboro;
+           
+            .left{
+                width:240/@r;
+                height: 300/@r;
+//              background-color: royalblue; 
+                float: left;
+                text-align: center;
+                
+                img{
+                    width:160/@r;
+                    height:200/@r;
+                    margin-top: 50/@r;
+                }
+            }
+            .right{
+                width:500/@r;
+                height:300/@r;
+//              background-color: blueviolet; 
+                float: right;
+                 h1{
+                     font-size: 26/@r;
+                     margin-top: 20/@r;  
+                     font-weight: normal;
+                     a{
+                        text-decoration: none;
+                        color: black; 
+                     }
+                     a:hover{
+                         text-decoration: underline;
+                         color: orangered;
+                     }
+                 }
+                 span{
+                     display: block;
+                     font-size: 40/@r;
+                     color: red;
+                     font-weight: bold;
+                     margin-top: 50/@r;
+                 }
+                 p{
+                    font-size: 28/@r; 
+                    margin-top: 20/@r;
+                 }
+            } 
+        }
+    }
+}
+
+

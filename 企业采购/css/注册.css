@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.big {
+  width: 15rem;
+  height: 24rem;
+  background-color: white;
+}
+.hidediv {
+  width: 15rem;
+  height: 24rem;
+  background-color: black;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.hidecenter {
+  width: 12rem;
+  height: 4.8rem;
+  background-color: white;
+  left: 1.5rem;
+  top: 9rem;
+  border-radius: 0.1rem;
+  z-index: 10;
+  position: fixed;
+  display: none;
+}
+.hidecenter ul {
+  list-style-type: none;
+}
+.hidecenter ul li {
+  width: 12rem;
+  height: 1.6rem;
+}
+.hidecenter ul li span {
+  width: 11rem;
+  height: 1.56rem;
+  float: left;
+  margin-left: 0.5rem;
+  border-bottom: 1px solid #d5d5d5;
+  font-size: 0.6rem;
+  font-weight: 700;
+  line-height: 1.56rem;
+}
+.hidecenter ul li:nth-child(3) span {
+  border-bottom: none;
+}
+#div1 {
+  width: 13rem;
+  height: 1.6rem;
+  float: left;
+  margin-left: 1rem;
+  margin-bottom: 0.6rem;
+}
+.div1 {
+  margin-top: 1.8rem;
+}
+.div1 input {
+  width: 8.4rem;
+  height: 1.6rem;
+  float: left;
+  border-radius: 0.2rem;
+  border: 1px solid #d5d5d5;
+  outline: none;
+  font-size: 0.56rem;
+  text-indent: 1em;
+}
+.div1 button {
+  width: 3.6rem;
+  height: 1.6rem;
+  float: right;
+  border-radius: 0.2rem;
+  border: 1px solid #d5d5d5;
+  outline: none;
+  font-size: 0.5rem;
+  background-color: white;
+}
+.div1 button span {
+  float: left;
+  font-weight: 700;
+  margin-left: 0.1rem;
+  margin-top: 0.14rem;
+}
+.div1 button i {
+  float: right;
+  font-size: 0.7rem;
+  margin-right: 0.14rem;
+  margin-bottom: 0.12rem;
+  color: #d5d5d5;
+}
+.div2 input {
+  width: 13rem;
+  height: 1.6rem;
+  border-radius: 0.2rem;
+  border: 1px solid #d5d5d5;
+  outline: none;
+  font-size: 0.56rem;
+  text-indent: 1em;
+}
+.div3 button {
+  width: 12rem;
+  height: 1.4rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: #999999;
+  border: 1px solid #d5d5d5;
+  outline: none;
+  font-size: 0.44rem;
+}
+.div4 button {
+  width: 13rem;
+  height: 1.6rem;
+  background-color: #b7272d;
+  border-radius: 0.16rem;
+  border: none;
+  color: white;
+  font-size: 0.56rem;
+  outline: none;
+}
+.div5 {
+  font-size: 0.5rem;
+}
+.div5 a {
+  text-decoration: none;
+  color: #1ea1ff;
+}
+input::-webkit-input-placeholder {
+  color: #d5d5d5;
+}
+a:hover {
+  -webkit-tap-highlight-color: transparent;
+}
+.pleaseenter1 {
+  width: 8rem;
+  height: 3.24rem;
+  background-color: white;
+  position: fixed;
+  left: 3.5rem;
+  top: 9rem;
+  display: none;
+  border: 1px solid #999999;
+  border-radius: 0.2rem;
+}
+.pleaseenter1 span {
+  display: block;
+  font-size: 0.44rem;
+  width: 8rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+}
+.pleaseenter1 button {
+  width: 8rem;
+  height: 1.6rem;
+  font-size: 0.44rem;
+  background-color: white;
+  outline: none;
+  color: #0095ff;
+}
+.pleaseenter2 {
+  width: 8rem;
+  height: 3.2rem;
+  background-color: white;
+  position: fixed;
+  left: 3.5rem;
+  top: 9rem;
+  display: none;
+  border: 1px solid #999999;
+  border-radius: 0.2rem;
+}
+.pleaseenter2 span {
+  display: block;
+  font-size: 0.44rem;
+  width: 8rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+}
+.pleaseenter2 button {
+  width: 8rem;
+  height: 1.6rem;
+  font-size: 0.44rem;
+  background-color: white;
+  outline: none;
+  color: #0095ff;
+}
+.pleaseenter3 {
+  width: 8rem;
+  height: 3.2rem;
+  background-color: white;
+  position: fixed;
+  left: 3.5rem;
+  top: 9rem;
+  display: none;
+  border: 1px solid #999999;
+  border-radius: 0.2rem;
+}
+.pleaseenter3 span {
+  display: block;
+  font-size: 0.44rem;
+  width: 8rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+}
+.pleaseenter3 button {
+  width: 8rem;
+  height: 1.6rem;
+  font-size: 0.44rem;
+  background-color: white;
+  outline: none;
+  color: #0095ff;
+}
+.pleaseenter4 {
+  width: 8rem;
+  height: 3.2rem;
+  background-color: white;
+  position: fixed;
+  left: 3.5rem;
+  top: 9rem;
+  display: none;
+  border: 1px solid #999999;
+  border-radius: 0.2rem;
+}
+.pleaseenter4 span {
+  display: block;
+  font-size: 0.44rem;
+  width: 8rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+}
+.pleaseenter4 button {
+  width: 8rem;
+  height: 1.6rem;
+  font-size: 0.44rem;
+  background-color: white;
+  outline: none;
+  color: #0095ff;
+}

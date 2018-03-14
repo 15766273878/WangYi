@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+				<!--视口宽度为设备宽度，不能缩放，移动设备优先-->
+    <meta name="viewport"           content="width=device-width,user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/注册.css"/>
+		<link rel="stylesheet" type="text/css" href="新建文件夹 (2)/css/font-awesome.css"/>
+	</head>
+	<body>
+		<div class="big">
+			<form action="" method="post" onsubmit="return checkd">
+				
+				<div class="hidediv"></div>
+				<div class="hidecenter">
+						<ul>
+							<li><span>@163.com</span></li>
+							<li><span>@126.com</span></li>
+							<li><span>@yeah.net</span></li>
+						</ul>
+				</div>
+				<div class="div1" id="div1">
+					<input type="text" placeholder="字母数字组合或手机号"/>
+					<button class="button1" type="button">
+						<span>@163.com</span>
+						<i class="icon-caret-down"></i>
+					</button>
+				</div>
+				<div class="div2" id="div1"><input type="text"  placeholder="输入验证手机号"/></div>
+				<div class="div3" id="div1"><button>>>请依次点击 "得 " "亲 " "冠 "完成验证>></button></div>
+				<div class="div4" id="div1"><button id="nextstep">下一步</button></div>
+				<div class="div5" id="div1">
+					<span>用户注册即代表同意</span><a href="javascript:;">《服务条款》</a><span>和</span>
+					<a href="javascript:;">《网易隐私政策》</a>
+				</div>
+				<div class="pleaseenter1">
+					<span>请输入账号</span>
+					<button class="sure">确定</button>
+				</div>
+				<div class="pleaseenter2">
+					<span>账号须由6-18个字符组成</span>
+					<button class="sure">确定</button>
+				</div>
+				<div class="pleaseenter3">
+					<span>请输入正确的手机号</span>
+					<button class="sure">确定</button>
+				</div>
+				<div class="pleaseenter4">
+					<span>请验证点击式验证码</span>
+					<button class="sure">确定</button>
+				</div>
+			</form>
+		</div>
+		
+		
+		<script type="text/javascript" src="js/注册.js"></script>
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript">
+			$(".button1").click(function(){
+				$(".hidediv").fadeIn();
+				$(".hidecenter").fadeIn();
+			});
+			$(".hidediv").click(function(){
+				$(".hidediv").fadeOut();
+				$(".hidecenter").fadeOut();
+			});
+			var hidecenter=document.getElementsByClassName("hidecenter")[0];
+			var spans=hidecenter.getElementsByTagName("span");
+			for(var i=0;i<spans.length;i++){
+				spans[i].onclick=function(){
+					var text1=this.innerText;
+					var parent=this.parentElement.parentElement.parentElement;
+					var wenzi=parent.nextElementSibling.getElementsByTagName("span")[0];
+					wenzi.innerText=text1;
+					parent.style.display="none";
+					var previous=parent.previousElementSibling;
+					previous.style.display="none";
+				}
+			}
+			var nextbtn=document.getElementById("nextstep");
+			var checkd=false;
+			nextbtn.onclick=function(){
+				var input1=this.parentElement.previousElementSibling.previousElementSibling.previousElementSibling.getElementsByTagName("input")[0];
+				var input2=this.parentElement.previousElementSibling.previousElementSibling.getElementsByTagName("input")[0];
+				var input1value=input1.value;
+				var input2value=input2.value;
+				var intvalue1=parseInt(input1value);
+				var can=false;
+//				alert(input1value.length);
+				if(input1value.length==0){
+					document.getElementsByClassName("pleaseenter1")[0].style.display="block";
+				}
+				
+				else if(input1value.length>=1&&input1value.length<6){
+					document.getElementsByClassName("pleaseenter2")[0].style.display="block";
+				}
+				
+				else if(input1value.length>=6&&!(/^1[34578]\d{9}$/.test(input1value))){
+					document.getElementsByClassName("pleaseenter3")[0].style.display="block";
+				}
+				else if(input1value.length>=6&&(/^1[34578]\d{9}$/.test(input1value))){
+					document.getElementsByClassName("pleaseenter4")[0].style.display="block";
+					input2value=input1value;
+					input2.value=input2value;
+					input2.readOnly="readonly";
+					input2.style.color="darkgray";
+					
+				}
+			}
+			var sure=document.getElementsByClassName("sure");
+			for(var i=0;i<sure.length;i++){
+				sure[i].onclick=function(){
+					this.parentElement.style.display="none";
+				}
+			}
+		</script>
+	</body>
+</html>

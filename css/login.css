@@ -1,100 +1,122 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-ul{
+
+ul {
 	list-style: none;
 }
+
+
 /*<!--最顶上部分-->*/
-.head{
+
+.head {
 	width: 100%;
 	/*height: 36px;*/
 	background-color: #333333;
 }
-.head .head_con{
+
+.head .head_con {
 	width: 1090px;
 	height: 36px;
 	line-height: 36px;
 	margin: 0 auto;
 	/*background-color: aquamarine;*/
 }
-.head .head_con .good{
+
+.head .head_con .good {
 	text-decoration: none;
 	font-size: 10px;
 	color: #cccccc;
 	float: left;
 }
-.head .head_con ul{
+
+.head .head_con ul {
 	list-style: none;
 	float: right;
 }
-.head .head_con ul li{
+
+.head .head_con ul li {
 	float: left;
-	display: inline-block;	
+	display: inline-block;
 	margin-left: 14px;
 	font-size: 12px;
 	color: #cccccc;
 	padding: 0px 2px;
 	text-align: center;
 }
-.head .head_con ul li a{
+
+.head .head_con ul li a {
 	text-decoration: none;
 	color: #cccccc;
 }
-.head .head_con a:hover{
+
+.head .head_con a:hover {
 	color: white;
 }
 
-.head .head_con ul li i{
-	margin:0px 5px;
+.head .head_con ul li i {
+	margin: 0px 5px;
 	font-size: 16px;
 	color: white;
 }
-.head .head_con ul li i.icon-chevron-down{
-	font-size:12px;
+
+.head .head_con ul li i.icon-chevron-down {
+	font-size: 12px;
 }
-.head .head_con ul li i.icon-chevron-up{
-	font-size:12px;
+
+.head .head_con ul li i.icon-chevron-up {
+	font-size: 12px;
 }
-.head .head_con ul li.ke{
+
+.head .head_con ul li.ke {
 	position: relative;
-	top:0px;
+	top: 0px;
 	left: 0px;
 }
+
+
 /*.head .head_con ul li.ke:hover .kehu{
 	display: block;
 }*/
-.head .head_con ul li .kehu{
+
+.head .head_con ul li .kehu {
 	height: 145px;
 	width: 80px;
-	border: 1px solid #cccccc;	
+	border: 1px solid #cccccc;
 	box-shadow: #CCCCCC 0px 0px 3px;
 	background-color: white;
 	position: absolute;
-	top:35px;
+	top: 35px;
 	left: -8px;
 	display: none;
 }
-.head .head_con ul li .kehu ul li{
-}
-.head .head_con ul li .kehu ul li a{
-	padding: 10px 1px ;
+
+.head .head_con ul li .kehu ul li {}
+
+.head .head_con ul li .kehu ul li a {
+	padding: 10px 1px;
 	color: #999;
 	border-bottom: 1px solid #CCCCCC;
 }
-.head .head_con ul li .kehu ul li a:hover{
+
+.head .head_con ul li .kehu ul li a:hover {
 	color: #b4a078;
 }
-.head .head_con ul li .kehu ul li:last-child a{
+
+.head .head_con ul li .kehu ul li:last-child a {
 	border: none;
 }
-.head .head_con ul li:last-child{
+
+.head .head_con ul li:last-child {
 	position: relative;
 }
-.head .head_con ul li:last-child:hover .app{
+
+.head .head_con ul li:last-child:hover .app {
 	/*display: block;*/
 }
-.head .head_con ul li .app{
+
+.head .head_con ul li .app {
 	width: 137px;
 	height: 154px;
 	text-align: center;
@@ -105,92 +127,99 @@ ul{
 	left: -35px;
 	display: none;
 	z-index: 999;
-	
 }
-.head .head_con ul li .app img{
+
+.head .head_con ul li .app img {
 	margin-top: 8px;
 }
-.head .head_con ul li .app span{
+
+.head .head_con ul li .app span {
 	height: 20px;
 	line-height: 20px;
 	display: block;
 	margin-top: -10px;
 	color: #b4a078;
-	
 }
-.head .head_con .img1{
+
+.head .head_con .img1 {
 	float: left;
-	margin-left: 30px;	
+	margin-left: 30px;
 	margin-top: 10px;
 }
-.lunbo{
+
+.lunbo {
 	width: 320px;
 	height: 36px;
 	overflow: hidden;
 	float: left;
 }
-.lunbo ul li{
+
+.lunbo ul li {
 	float: left;
 }
-.head .head_con .lunbo .uu li a{
+
+.head .head_con .lunbo .uu li a {
 	color: #b4a078;
 	text-decoration: underline;
 }
-.head .head_con .lunbo .uu li a:hover{
+
+.head .head_con .lunbo .uu li a:hover {
 	color: white;
 	text-decoration: none;
 }
 
 
 /*<!--导航部分-->*/
-.nav{
+
+.nav {
 	width: 100%;
 	height: 204px;
 	background-color: white;
 }
-.nav .nav_con{
 
+.nav .nav_con {
 	width: 1090px;
 	height: 134px;
 	margin: 0PX auto;
-
 }
-.nav .nav_con .logo{
+
+.nav .nav_con .logo {
 	display: inline-block;
-    height: 138px;
-    width: 280px;
-    margin-top: 20px;
-    margin-left: 400px;
-    background-image: url(../img/1212.gif);
+	height: 138px;
+	width: 280px;
+	margin-top: 20px;
+	margin-left: 400px;
+	background-image: url(../img/1212.gif);
 	background-position: 0 -146px;
 }
 
-.nav .nav_con .div_input{
+.nav .nav_con .div_input {
 	float: right;
-	margin-top:65px ;
+	margin-top: 65px;
 	margin-right: 20px;
 }
-.nav .nav_con input{
+
+.nav .nav_con input {
 	text-indent: 1em;
 	height: 22px;
 	width: 252px;
 	font-size: 13px;
 	outline: none;
 	border: none;
-	border-bottom:1px solid #d8cebc;
+	border-bottom: 1px solid #d8cebc;
 }
 
-.nav .nav_con .icon_search{
+.nav .nav_con .icon_search {
 	height: 20px;
 	width: 20px;
 	display: inline-block;
 	background: url(../img/all.png)0 -261px;
 	position: relative;
-	top:8px;
+	top: 8px;
 	left: 0px;
-	cursor: pointer;
 }
-.nav .nav_con .search_more{
+
+.nav .nav_con .search_more {
 	position: absolute;
 	display: none;
 	font-style: normal;
@@ -204,41 +233,47 @@ ul{
 	z-index: 99;
 	text-indent: 1em;
 }
-.nav .nav_con .search_more span{
+
+.nav .nav_con .search_more span {
 	display: block;
 	color: #999;
 	font-size: 13px;
 	margin-top: 7px;
 }
-.nav .nav_con .search_more p{
+
+.nav .nav_con .search_more p {
 	/*border: 1px solid #000;*/
 	line-height: 20px;
 	padding-top: 3px;
 	padding-bottom: 1px;
 	text-indent: 1em;
 }
-.nav .nav_con .search_more p:hover{
+
+.nav .nav_con .search_more p:hover {
 	background-color: #f8f5f0;
 }
-.nav .nav_con .search_more a{
+
+.nav .nav_con .search_more a {
 	text-decoration: none;
 	font-size: 13px;
 	color: #B4282D;
 }
-.nav .nav_con .icon_car{
+
+.nav .nav_con .icon_car {
 	height: 23px;
 	width: 23px;
 	margin-left: 15px;
 	display: inline-block;
 	background: url(../img/all.png)0 327px;
 	position: relative;
-	top:8px;
+	top: 8px;
 	left: 0px;
 }
-.nav .nav_con .icon_car i{
+
+.nav .nav_con .icon_car i {
 	display: inline-block;
 	height: 19px;
-	width:19px ;
+	width: 19px;
 	line-height: 19px;
 	font-style: normal;
 	text-align: center;
@@ -249,13 +284,15 @@ ul{
 	top: -9px;
 	left: 13px;
 }
-.nav .nav_dao{
+
+.nav .nav_dao {
 	height: 70px;
 	line-height: 50px;
 	width: 1090px;
 	margin: 0 auto;
 }
-.nav .nav_dao .ul{
+
+.nav .nav_dao .ul {
 	height: 70px;
 	text-align: center;
 	position: relative;
@@ -264,74 +301,86 @@ ul{
 	/*line-height: 70px;*/
 	/*border: 1px solid red;*/
 }
-.nav_dao ul li{
+
+.nav_dao ul li {
 	height: 22px;
 	line-height: 22px;
 	display: inline-block;
 	margin-top: 20px;
 	/*border: 1px solid #000;*/
-	padding: 0px 24px;	
+	padding: 0px 24px;
 	float: left;
 }
- .nav_dao ul li.ju{
+
+.nav_dao ul li.ju {
 	/*position: relative;*/
 	/*border: 1px solid #000;*/
 	/*left: -20px;*/
 	/*top: 0px;*/
 }
-.nav_dao ul li.ju .ju_box{
+
+.nav_dao ul li.ju .ju_box {
 	width: 100%;
 	position: absolute;
 	left: 0px;
 	top: 52px;
+	z-index: 99;
 	/*border: 1px solid #000;*/
-/*	background-color: deepskyblue;*/
-	display: none;
+	/*	background-color: deepskyblue;*/
+	/*display: none;*/
 }
-.nav_dao ul li.ju .ju_box .ju_box2{
+
+.nav_dao ul li.ju .ju_box .ju_box2 {
 	width: 1600px;
-    left: -260px;
-    top: 0px;
+	left: -260px;
+	top: 0px;
 	position: relative;
 	padding-top: 10px;
-    text-align: center;
-    background-color: white;
-    /*display: none;*/
+	text-align: center;
+	background-color: white;
+	/*display: none;*/
 }
-.nav_dao ul li.ju .ju_box .ju_box2 .ju_box3{
-	margin:0 auto;
+
+.nav_dao ul li.ju .ju_box .ju_box2 .ju_box3 {
+	margin: 0 auto;
 	width: 1090px;
 }
- .nav_dao ul li.ju .ju_box .ju_box2 .jujia{
+
+.nav_dao ul li.ju .ju_box .ju_box2 .jujia {
 	/*border: 1px solid #000;*/
 }
-.nav_dao ul li.ju .ju_box .ju_box2 .jujia li{
+
+.nav_dao ul li.ju .ju_box .ju_box2 .jujia li {
 	margin-left: 20px;
 	margin-top: 0px;
 	height: 80px;
 	float: none;
 	/*border: 1px solid #000;*/
 }
- .nav_dao ul li.fun{
+
+.nav_dao ul li.fun {
 	border-right: 1px solid #CCCCCC;
 }
- .nav_dao ul li a{
+
+.nav_dao ul li a {
 	text-decoration: none;
 	display: block;
 	color: #333333;
 	font-size: 15px;
 	font-weight: 700;
-	padding-bottom:6px;
+	padding-bottom: 6px;
 }
- .nav_dao ul.jujia li a{
+
+.nav_dao ul.jujia li a {
 	font-size: 12px;
 }
 
-.nav_dao ul li .jujia li:hover a{
+.nav_dao ul li .jujia li:hover a {
 	color: #b4a078;
 	border-bottom: 3px solid #b4a078;
 }
- .nav_dao .ul .ju a:hover{
+
+.nav_dao .ul .ju a:hover {
 	color: #b4a078;
 	border-bottom: 4px solid #b4a078;
 }
@@ -339,40 +388,45 @@ ul{
 
 
 /*<!--中间登录部分-->*/
-.contain{
+
+.contain {
 	width: 100%;
 	height: 600px;
 	background-color: tan;
 	background: url(../img/bg.jpg)center no-repeat;
 }
-.contain .con_con{
+
+.contain .con_con {
 	width: 1090px;
 	height: 543px;
 	margin: 0 auto;
 	/*border: 1px solid #000;*/
 }
-.contain .con_con .login{
-	position: relative;
+
+.contain .con_con .login {
 	float: left;
 	margin-top: 83px;
-    margin-left: 703px;
+	margin-left: 703px;
 	min-height: 460px;
 	width: 386px;
 	height: auto !important;
 	border: 1px solid #e8e8e8;
 	background-color: white;
 }
-.contain .con_con .login h1{
-    text-align: left;
-    font-size: 18px;
-    color: #333;
-    margin-left: 50px;
-    line-height: 18px;
-    padding:30px 40px 15px;
-    width: 100%;
-    height: auto;
+
+.contain .con_con .login h1 {
+	text-align: left;
+	font-size: 18px;
+	color: #333;
+	margin-left: 50px;
+	line-height: 18px;
+	padding: 30px 40px 15px;
+	width: 100%;
+	height: auto;
 }
-.contain .con_con .login .user,.password{
+
+.contain .con_con .login .user,
+.password {
 	display: inline-block;
 	margin-left: 50px;
 	height: 38px;
@@ -381,26 +435,16 @@ ul{
 	margin-top: 15px;
 	border: 1px solid #e8e8e8;
 	border-radius: 2px;
-	position: relative;
 }
-.contain .con_con .login .user .sp1,.password .sp1{
-	display: inline-block;
-	height: 20px;
-	width: 20px;
-	/*border: 1px solid #000;*/
-	position: absolute;
-	right: 5px;
-	top: 8px;
-	background: url(../img/x.png)-4px -4px no-repeat;
-	display: none;
-	background-size: 28px;
-}
-.contain .con_con .login .user input,.password input{
+
+.contain .con_con .login .user input,
+.password input {
 	outline: none;
 	border: none;
 	text-indent: 1em;
 }
-.contain .con_con .login .user i{
+
+.contain .con_con .login .user i {
 	height: 24px;
 	width: 29px;
 	float: left;
@@ -410,7 +454,8 @@ ul{
 	display: inline-block;
 	background: url(../img/d6bd29fcf2096cb4c5d338e0fce13919.png)no-repeat;
 }
-.contain .con_con .login .password i{
+
+.contain .con_con .login .password i {
 	height: 24px;
 	width: 29px;
 	margin-left: 10px;
@@ -420,7 +465,8 @@ ul{
 	display: inline-block;
 	background: url(../img/178e29b95f152a8aa6490f4f7032a8e8.png)no-repeat;
 }
-.contain .con_con .login .pp{
+
+.contain .con_con .login .pp {
 	/*border: 1px solid #000;*/
 	margin-top: 5px;
 	display: inline-block;
@@ -429,12 +475,14 @@ ul{
 	font-size: 14px;
 	color: red;
 }
-#!{
+
+#! {
 	height: 20px;
 	width: 10px;
 	padding-right: 10px;
 }
-.contain .con_con .login .sum{
+
+.contain .con_con .login .sum {
 	height: 48px;
 	width: 300px;
 	border: none;
@@ -446,136 +494,157 @@ ul{
 	cursor: pointer;
 	background-color: #b4a078;
 }
-.contain .con_con .login p{
+
+.contain .con_con .login p {
 	font-size: 12px;
 	margin: 20px 0px 0px 50px;
-	color:#999;
+	color: #999;
 }
 
-.contain .con_con .login p a:first-child{
+.contain .con_con .login p a:first-child {
 	text-decoration: none;
 	color: #999;
 }
-.contain .con_con .login p a:last-child{
+
+.contain .con_con .login p a:last-child {
 	text-decoration: none;
 	float: right;
 	margin-right: 40px;
 	color: #999;
 }
-.contain .con_con .login p a:hover{
+
+.contain .con_con .login p a:hover {
 	color: #b4a078;
 }
 
-.contain .con_con .login .way{
+.contain .con_con .login .way {
 	height: 150px;
 	width: 300px;
 	margin-left: 50px;
 	position: relative;
 	/*background-color: deepskyblue;*/
-	border: 1px solid rgba(0,0,0,0);
+	border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.contain .con_con .login .way p:before{
+.contain .con_con .login .way p:before {
 	content: '其他登录方式';
-    position: absolute;
-    top: 4%;
-    left: 50%;
-    text-align: center;
-    width: 120px;
-    height: 30px;	
-    line-height: 30px;
-    margin-left: -60px;
-    background: #fff;
-    z-index: 2;
-    font-size: 14px;
+	position: absolute;
+	top: 4%;
+	left: 50%;
+	text-align: center;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: -60px;
+	background: #fff;
+	z-index: 2;
+	font-size: 14px;
 }
-.contain .con_con .login .way p:after{
+
+.contain .con_con .login .way p:after {
 	content: '';
-    position: absolute;
-    top: 14%;
-    left: 0;
-    width: 100%;
-    height: 0;
-    border-top: 1px solid #ddd;
+	position: absolute;
+	top: 14%;
+	left: 0;
+	width: 100%;
+	height: 0;
+	border-top: 1px solid #ddd;
 }
-.way ul{
+
+.way ul {
 	text-align: center;
 	margin-top: 60px;
 	/*border: 1px solid #000;*/
 }
-.way ul li{
-	display: inline-block;	
+
+.way ul li {
+	display: inline-block;
 	text-align: center;
 	font-size: 13px;
 	margin-left: 20px;
 	/*border: 1px solid #000;*/
 }
-.way ul li i{
-	display:block;
-	height:30px;
-	width:30px;
-	background:url(../img/qqweixin.png)0px 0px no-repeat;
+
+.way ul li i {
+	display: block;
+	height: 30px;
+	width: 30px;
+	background: url(../img/qqweixin.png)0px 0px no-repeat;
 }
-.way ul li i.QQ{
-	background:url(../img/qqweixin.png)100px 0px;
+
+.way ul li i.QQ {
+	background: url(../img/qqweixin.png)100px 0px;
 }
-.way ul li i.weibo{
-	background:url(../img/qqweixin.png)30px 0px;
+
+.way ul li i.weibo {
+	background: url(../img/qqweixin.png)30px 0px;
 }
-.way ul li i.wangyi{
+
+.way ul li i.wangyi {
 	margin-left: 13px;
 	background: url(../img/wy.png)5px 0px no-repeat;
 }
-.way ul li:hover a{
+
+.way ul li:hover a {
 	color: #b4a078;
 }
-.way ul li.weixin:hover i.weixin{
+
+.way ul li.weixin:hover i.weixin {
 	background-position: 0px -32px;
 }
-.way ul li.QQ:hover i.QQ{
-	background:url(../img/qqweixin.png)100px -32px;
+
+.way ul li.QQ:hover i.QQ {
+	background: url(../img/qqweixin.png)100px -32px;
 }
-.way ul li.weibo:hover i.weibo{
-	background:url(../img/qqweixin.png)30px -32px;
+
+.way ul li.weibo:hover i.weibo {
+	background: url(../img/qqweixin.png)30px -32px;
 }
-.way ul li.wangyi:hover i.wangyi{
+
+.way ul li.wangyi:hover i.wangyi {
 	margin-left: 13px;
 	background: url(../img/wy2.png)1px -4px no-repeat;
 }
-.way ul li a{
+
+.way ul li a {
 	text-decoration: none;
-	color: #CCCCCC;	
+	color: #CCCCCC;
 }
 
 
 /*<!--底部服务部分-->*/
 
-.service{
+.service {
 	width: 100%;
 	height: 299px;
-	border: 1px solid rgba(0,0,0,0);
+	border: 1px solid rgba(0, 0, 0, 0);
 }
-.service .service_con{
+
+.service .service_con {
 	width: 1090px;
 	height: 204px;
 	margin: 60px auto;
 }
-.service .service_con div{
-	float: left;	
+
+.service .service_con div {
+	float: left;
 }
-.service .service_con .ser1{
+
+.service .service_con .ser1 {
 	width: 33.33%;
 	height: 204px;
-	border-right:1px solid #e8e8e8 ;
+	border-right: 1px solid #e8e8e8;
 	box-sizing: border-box;
 	background-color: white;
 }
-.service .service_con  span{
+
+.service .service_con span {
 	display: block;
 	text-align: center;
 	font-size: 16px;
 }
-.service .service_con .ser1 a i{
+
+.service .service_con .ser1 a i {
 	height: 31px;
 	width: 31px;
 	margin-left: 25px;
@@ -583,17 +652,21 @@ ul{
 	display: inline-block;
 	margin-top: 25px;
 }
-a.zx:hover i.zx{
+
+a.zx:hover i.zx {
 	background: url(../img/zxkf.png)no-repeat;
 }
-.service .service_con .ser1 a i.fk{
+
+.service .service_con .ser1 a i.fk {
 	background: url(../img/fk1.png)no-repeat;
 }
-.service_con .ser1 a.fk:hover i.fk{
+
+.service_con .ser1 a.fk:hover i.fk {
 	background: url(../img/fk2.png)-5px;
 }
-.service .service_con .ser1 a{
-	margin-top:20px;
+
+.service .service_con .ser1 a {
+	margin-top: 20px;
 	margin-left: 80px;
 	text-decoration: none;
 	height: 100px;
@@ -603,30 +676,31 @@ a.zx:hover i.zx{
 	color: black;
 	border: 1px solid #e8e8e8;
 }
-.service .service_con .ser1 a:hover label{
+
+.service .service_con .ser1 a:hover label {
 	color: #b4a078;
 }
 
-.service .service_con .ser1 a label{
+.service .service_con .ser1 a label {
 	display: block;
-	text-align: center;	
+	text-align: center;
 	height: 20px;
 }
 
-
-
-.service .service_con .ser1 a:last-child{
+.service .service_con .ser1 a:last-child {
 	margin-left: 20px;
 }
-.service .service_con .ser2{
+
+.service .service_con .ser2 {
 	width: 33.33%;
 	height: 204px;
 	background-color: white;
-	border-right:1px solid #e8e8e8 ;
+	border-right: 1px solid #e8e8e8;
 	box-sizing: border-box;
 	text-align: center;
 }
-.service .service_con .ser2 p{
+
+.service .service_con .ser2 p {
 	margin-top: 20px;
 	display: inline-block;
 	text-align: left;
@@ -634,151 +708,175 @@ a.zx:hover i.zx{
 	width: 288px;
 	font-size: 13px;
 }
-.service .service_con .ser2 p.guan span{
+
+.service .service_con .ser2 p.guan span {
 	font-size: 13px;
 	float: left;
 	margin-top: 5px;
 	display: inline-block;
 }
-.service .service_con .ser2 p.guan img{
+
+.service .service_con .ser2 p.guan img {
 	margin-left: 10px;
 }
 
-.service .service_con .ser3{
+.service .service_con .ser3 {
 	width: 33.33%;
 	height: 204px;
 	text-align: center;
 }
-.service .service_con .ser3 img{
-		margin-top: 20px;
+
+.service .service_con .ser3 img {
+	margin-top: 20px;
 }
-.service .service_con .ser3 span{
+
+.service .service_con .ser3 span {
 	font-size: 12px;
 	color: #b4a078;
 }
 
 
-
 /*<!--最底下关于我们部分-->*/
-.footer{
+
+.footer {
 	width: 100%;
 	height: 204px;
 	background-color: #414141;
 }
-.footer .foot_con{
+
+.footer .foot_con {
 	margin: 0 auto;
 	width: 1090px;
 	position: relative;
-	border: 1px solid rgba(0,0,0,0);
+	border: 1px solid rgba(0, 0, 0, 0);
 }
-.footer .foot_con ul{
+
+.footer .foot_con ul {
 	border-bottom: 1px solid #CCCCCC;
 	margin-top: 40px;
-	height:80px
+	height: 80px
 }
-.footer .foot_con ul li{
+
+.footer .foot_con ul li {
 	float: left;
 	width: 33.33%;
 	color: white;
 	line-height: 50PX;
 }
-.footer .foot_con ul li img{
+
+.footer .foot_con ul li img {
 	margin-left: 90px;
 	float: left;
 }
-.footer .foot_con ul li span{
+
+.footer .foot_con ul li span {
 	margin-left: 20PX;
 	font-size: 18PX;
 }
-.footer .foot_con .last{
+
+.footer .foot_con .last {
 	font-size: 12px;
 	color: #999999;
 	text-align: center;
 	margin-top: 20px;
 }
-.footer .foot_con p{
+
+.footer .foot_con p {
 	text-align: center;
 	color: #999999;
 	font-size: 12px;
 	margin-top: 10px;
 }
-.footer .foot_con .last span{
+
+.footer .foot_con .last span {
 	margin-left: 10px;
 }
-.footer .foot_con .ga{
+
+.footer .foot_con .ga {
 	height: 38px;
 	width: 38px;
-	position: absolute;	
-	bottom:5px;
+	position: absolute;
+	bottom: 5px;
 	right: 180px;
 }
 
-.tan{
+.tan {
 	width: 100%;
 	height: 1340px;
 	position: absolute;
 	left: 0;
 	top: 0;
 	overflow: hidden;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 	display: none;
 	z-index: 99;
 }
-.tan .biao{
+
+.tan .biao {
 	width: 500px;
-    height: 531px;
-    padding: 30px 50px 0;
+	height: 531px;
+	padding: 30px 50px 0;
 	/*margin: 100px auto;*/
 	position: fixed;
 	top: 100px;
 	left: 500px;
 	background-color: white;
 }
-.tan .biao div{
+
+.tan .biao div {
 	width: 100%;
 	margin-top: 20px;
 	height: auto;
 	/*border: 1px solid #000;*/
 }
-.tan .biao p{
+
+.tan .biao p {
 	font-weight: 400;
 	font-size: 18px;
 }
-.tan .biao select{
+
+.tan .biao select {
 	margin-left: 20px;
 	height: 25px;
 	width: 200px;
 }
-.s1,.s2{
+
+.s1,
+.s2 {
 	margin-top: 8px;
 	float: left;
 }
-.tan .biao span{
+
+.tan .biao span {
 	font-size: 15px;
 }
-.tan .biao img{
+
+.tan .biao img {
 	margin-left: 18px;
 }
-.tan .biao textarea{
+
+.tan .biao textarea {
 	text-indent: 2em;
 	margin-left: 20px;
 	line-height: 20px;
 	font-size: 14px;
 	border: 1px solid #CCCCCC;
-	    resize: none;
-	
+	resize: none;
 }
-.tan .biao .num{
+
+.tan .biao .num {
 	text-indent: 1em;
 	margin-left: 20px;
 	height: 30px;
 	width: 75%;
 }
-.tan .biao .yan{
+
+.tan .biao .yan {
 	margin-left: 20px;
 	height: 30px;
 }
-.tan .biao .bit{
+
+.tan .biao .bit {
 	margin-left: 70px;
 	font-size: 16px;
 	background-color: #b4a078;
@@ -788,41 +886,43 @@ a.zx:hover i.zx{
 	height: 50px;
 	width: 160px;
 }
-.tan .biao #off{
+
+.tan .biao #off {
 	position: absolute;
 	height: 20px;
 	width: 20px;
 	right: 5px;
 	top: 5px;
-	background-color:#DDDDDD ;
-	
+	background-color: #DDDDDD;
 }
 
-
-.nav_dao ul li.ju .ju_box{
+.nav_dao ul li.ju .ju_box {
 	width: 100%;
 	position: absolute;
 	left: 0px;
 	top: 52px;
 	/*border: 1px solid #000;*/
-/*	background-color: deepskyblue;*/
+	/*	background-color: deepskyblue;*/
 	display: none;
 }
-.top_nav .top_nav_con .nav_dao ul li.ju .ju_box .ju_box2{
+
+.top_nav .top_nav_con .nav_dao ul li.ju .ju_box .ju_box2 {
 	width: 1600px;
-    left: -60px;
-    top: 0px;
+	left: -60px;
+	top: 0px;
 	position: relative;
 	padding-top: 10px;
-    text-align: center;
-    background-color: white;
-    /*display: none;*/
+	text-align: center;
+	background-color: white;
+	/*display: none;*/
 }
-.nav_dao ul li.ju .ju_box .ju_box2 .ju_box3{
-	margin:0 auto;
+
+.nav_dao ul li.ju .ju_box .ju_box2 .ju_box3 {
+	margin: 0 auto;
 	width: 1090px;
 }
-.top_nav{
+
+.top_nav {
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -831,18 +931,22 @@ a.zx:hover i.zx{
 	display: none;
 	z-index: 999;
 }
-.top_nav .top_nav_con{
+
+.top_nav .top_nav_con {
 	margin: 0 auto;
 	width: 1090px;
 	height: 60px;
 }
-.top_nav .top_nav_con .ul li a{
+
+.top_nav .top_nav_con .ul li a {
 	font-size: 13px;
 }
-.top_nav .top_nav_con .ul .ju_box3 a{
+
+.top_nav .top_nav_con .ul .ju_box3 a {
 	font-size: 11px;
 }
-.top_nav .top_nav_con i.top_logo{
+
+.top_nav .top_nav_con i.top_logo {
 	display: inline-block;
 	height: 40px;
 	width: 110px;
@@ -851,33 +955,36 @@ a.zx:hover i.zx{
 	float: left;
 	background: url(../img/all.png)0px -210px no-repeat;
 }
-.DZ{
+
+.DZ {
 	font-size: 12PX;
 	margin-top: 12px;
 	margin-left: 10px;
 	float: left;
 	/*border: 1px solid #000;*/
 }
-.DZ a{
+
+.DZ a {
 	color: black;
 	text-decoration: none;
 	margin-left: 10px;
 }
 
-.DZ .icon_car{
+.DZ .icon_car {
 	height: 23px;
 	width: 23px;
 	margin-left: 15px;
 	display: inline-block;
 	background: url(../img/all.png)0 327px;
 	position: relative;
-	top:8px;
+	top: 8px;
 	left: 0px;
 }
-.DZ .icon_car i{
+
+.DZ .icon_car i {
 	display: inline-block;
 	height: 19px;
-	width:19px ;
+	width: 19px;
 	line-height: 19px;
 	font-style: normal;
 	text-align: center;
@@ -888,12 +995,14 @@ a.zx:hover i.zx{
 	top: -9px;
 	left: 13px;
 }
+
+
 /*a.active{
 	color: #b4a078;
 	border-bottom: 2px solid #b4a078;
 }*/
 
-.fix{
+.fix {
 	position: fixed;
 	bottom: 130px;
 	right: 0px;
@@ -901,15 +1010,18 @@ a.zx:hover i.zx{
 	width: 72px;
 	/*border: 1px solid #000;*/
 }
-.fix .ad{
+
+.fix .ad {
 	float: left;
 }
-.fix .down{
+
+.fix .down {
 	float: left;
 	margin: 0px auto;
 	background-color: white;
 }
-.fix .down a i{
+
+.fix .down a i {
 	margin: 10px 0px 6px 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -919,83 +1031,74 @@ a.zx:hover i.zx{
 	/*border: 1px solid #000;*/
 	background: url(../img/arr.png);
 }
-.fix .down a{
-	text-align: center;	
+
+.fix .down a {
+	text-align: center;
 	display: inline-block;
 	width: 72px;
-	height: 72px;	
+	height: 72px;
 	text-decoration: none;
 	font-size: 13px;
 	color: #999999;
 	border-bottom: 1px solid #CCCCCC;
 }
-.fix .down a.a4{
-	border-bottom: none;	
+
+.fix .down a.a4 {
+	border-bottom: none;
 }
 
-.fix .down .d1{
+.fix .down .d1 {
 	background: url(../img/arr.png)0px -298px no-repeat;
 }
-.fix .down .d2{
+
+.fix .down .d2 {
 	background: url(../img/arr.png)4px -168px no-repeat;
 }
-.fix .down .d3{
+
+.fix .down .d3 {
 	background: url(../img/arr.png)0px -423px no-repeat;
 }
-.fix .down .d4{
+
+.fix .down .d4 {
 	width: 31px;
 	background: url(../img/arr.png)0px -87px no-repeat;
 }
-.fix .down .d5{
+
+.fix .down .d5 {
 	width: 31px;
 	background: url(../img/arr.png)0px -225px no-repeat;
 }
+
+
 /*.fix .down .a5{
 	/*display: none;*/
-}*/
 
-.fix .down .a1:hover .d1{
+
+}
+*/ .fix .down .a1:hover .d1 {
 	background: url(../img/arr.png)0px -259px no-repeat;
 }
-.fix .down .a2:hover .d2{
+.fix .down .a2:hover .d2 {
 	background: url(../img/arr.png)4px -128px no-repeat;
 }
-.fix .down .a3:hover .d3{
+.fix .down .a3:hover .d3 {
 	background: url(../img/arr.png)0px -387px no-repeat;
 }
-.fix .down .a4:hover .d4{
+.fix .down .a4:hover .d4 {
 	width: 31px;
 	background: url(../img/arr.png)0px -46px no-repeat;
 }
-.fix .down .a5:hover .d5{
+.fix .down .a5:hover .d5 {
 	width: 31px;
 	background: url(../img/arr.png)0px -200px no-repeat;
 }
-.fix .down a:hover{
+.fix .down a:hover {
 	color: #b4a078;
 }
-.fix .down .come{
+.fix .down .come {
 	border-top: 1px solid #cccccc;
-	display: none;	
-}
-.fix .down .come .a5{
-	border-bottom: none;
-}
-.Message{
-	height: 50px;
-	width: 180px;
-	background-color: white;
-	position: absolute;
-	top: 100px;
-	left: 100px;
-	border-radius: 5px;
 	display: none;
-	/*text-align: center;*/
-	z-index: 99;
-	border: 1px solid #cccccc;
 }
-.Message p{
-	font-size: 13px;
-	color: #999;
-	margin-top: 17px;
+.fix .down .come .a5 {
+	border-bottom: none;
 }

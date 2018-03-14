@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+.head {
+  width: 15rem;
+  height: 1.6rem;
+  background-color: white;
+  position: fixed;
+  z-index: 99;
+  top: 0rem;
+}
+.head .sousuo {
+  width: 10.4rem;
+  height: 1.2rem;
+  border: 0.02rem solid #ffd700;
+  background-color: #EDEDED;
+  border-radius: 0.2rem;
+  margin-top: 0.16rem;
+}
+.head span {
+  float: left;
+  margin-left: 0.4rem;
+  font-size: 0.7rem;
+}
+.head span img {
+  margin-top: 0.3rem;
+}
+.head .sousuo i {
+  margin-left: 0.6rem;
+  margin-right: 0.1rem;
+  margin-top: 0.34rem;
+}
+.head .sousuo input {
+  width: 8rem;
+  height: 0.8rem;
+  border: none;
+  margin-top: 0.22rem;
+  background-color: #EDEDED;
+}
+.fenlei {
+  width: 15rem;
+  height: 1.2rem;
+  position: fixed;
+  top: 1.6rem;
+  z-index: 99;
+  background-color: white;
+}
+.fenlei ul {
+  width: 15rem;
+  height: 1.2rem;
+  overflow-x: hidden;
+}
+.fenlei ul li {
+  float: left;
+  font-size: 0.64rem;
+  line-height: 1.2rem;
+  margin-left: 1rem;
+}
+.fenlei ul li a {
+  color: black;
+}
+.bigbg {
+  width: 15rem;
+  height: 8.4rem;
+  margin-top: 2.8rem;
+}
+.bigbg a img {
+  width: 15rem;
+  height: 8.4rem;
+}
+.biaoqian {
+  width: 15rem;
+  height: 2.4rem;
+}
+.biaoqian p.p1 {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.biaoqian p {
+  text-align: center;
+}
+.biaoqian p.p2 {
+  margin-top: 0.2rem;
+  font-size: 0.6rem;
+}
+.shangpin {
+  width: 15rem;
+  background-color: gainsboro;
+}
+.shangpin ul li {
+  width: 7.44rem;
+  height: 11.7196rem;
+  float: left;
+}
+.shangpin .shangpin-T {
+  width: 6.9rem;
+  height: 11.7196rem;
+  margin: 0rem auto;
+  position: relative;
+}
+.shangpin .shangpin-T img {
+  widows: 6.9rem;
+  height: 6.9rem;
+  background-color: #F4F4F4;
+}
+.shangpin .shangpin-T span {
+  display: block;
+}
+.shangpin .shangpin-T span:nth-child(2) {
+  font-size: 0.6rem;
+  position: absolute;
+  width: 2.4rem;
+  height: 0.8rem;
+  top: 0.2rem;
+  left: 0.1rem;
+  color: #F48F18;
+  border: 0.02rem solid #f48f18;
+}
+.shangpin .shangpin-T span:nth-child(3) {
+  font-size: 0.5rem;
+  margin-top: 0rem;
+  background-color: #F1ECE2;
+  width: 6.9rem;
+  height: 1.4rem;
+  position: relative;
+  top: -0.28rem;
+  line-height: 1.4rem;
+  text-align: center;
+  color: #F49337;
+}
+.shangpin .shangpin-T span label {
+  background-color: #F48F18;
+  color: white;
+  margin-left: 1rem;
+  font-size: 0.6rem;
+}
+.shangpin .shangpin-T span:nth-child(5) {
+  font-size: 0.6rem;
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+  text-align: center;
+}
+.shangpin .shangpin-T span:nth-child(6) {
+  font-size: 0.6rem;
+  color: red;
+  margin-left: 2.6rem;
+}
+.dibu {
+  width: 15rem;
+  height: 3rem;
+  background-color: gainsboro;
+  float: left;
+}
+.dibu ul {
+  margin-top: 0.6rem;
+  position: fixed;
+  bottom: 0rem;
+  width: 15rem;
+  height: 2.4rem;
+  background-color: white;
+  z-index: 100;
+}
+.dibu ul li {
+  width: 2.96rem;
+  height: 2.4rem;
+  float: left;
+}
+.dibu ul li i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.dibu ul li a {
+  font-size: 0.6rem;
+  color: black;
+  position: relative;
+  top: -0.4rem;
+  left: 0.9rem;
+}
+.dibu ul li:nth-child(4) a {
+  left: 0.6rem;
+}
