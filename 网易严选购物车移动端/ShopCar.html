@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,user-scalale=no"/>
+		<script type="text/javascript" src="js/loadMobile.js"></script>
+		<link rel="stylesheet" type="text/css" href="font/css/font-awesome.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ShopCar.css"/>
+		<style>
+			@media screen and (min-width: 768px){
+				div#isPC{
+					display: none;
+				}
+			}
+		</style>
+	</head>
+	<body>
+	<div id="isPC"></div>
+		<div class="advertisement">
+			<span class="close"></span>
+			<span class="logo"></span>
+			<h3>网易严选</h1>
+			<label>立即领取APP新人专享1000元礼包</label>
+			<span class="open_app">打开APP</span>
+		</div>
+		<div class="title">
+			<label>购物车</label>
+			<a href="#" id="edit_button">编辑</a>
+		</div>
+		<div class="promise">
+			<ul>
+				<li><div class="circle_small"></div><span>30天无忧退货</span></li>
+				<li><div class="circle_small"></div><span>48小时快速退款</span></li>
+				<li><div class="circle_small"></div><span>满88元免邮费</span></li>
+			</ul>
+			<span id="enough_tips"><label id="ok">已</label><label id="more_enough">110</label><label id="money">元</label>满足免邮条件</span>
+		</div>
+		<div class="more_tips">
+			<span>全场加购价</span>
+			<label id="pay_more">再加</label>
+			<label id="enough">110</label>
+			<label id="yuan">元</label>
+			<label>满足全场满110享低价换购</label>
+			<a href="#" id="check_change">查看换购</a>
+		</div>
+		<div class="body">
+			<!--第一个-->
+			<li><span class="circle"></span>
+				<img src="img/anmoyi移动端.png"/>
+				<span class="presell">预售</span>
+				<h4>多功能私享按摩椅</h4>
+				<p>白色+咖啡色</p>
+				<span class="price">¥1999.00</span>
+				<span class="x">x</span>
+				<span class="num">1</span>
+				<span class="more" id="more1"><i class="icon-plus"></i></span>
+				<input type="text" class="num_text" id="num1" value="1">
+				<span class="less" id="less1"><i class="icon-minus"></i></span>
+			</li>
+			<!--第二个-->
+			<li><span class="circle"></span>
+				<img src="img/erji.png"/>
+				<h4>音伏IN-VOICE动圈高保真耳机</h4>
+				<p>黑色</p>
+				<span class="price">¥799.00</span>
+				<span class="x">x</span>
+				<span class="num">1</span>
+				<span class="more" id="more2"><i class="icon-plus"></i></span>
+				<input type="text" class="num_text" id="num2" value="1">
+				<span class="less" id="less2"><i class="icon-minus"></i></span>
+			</li>
+		     <!--第三个-->
+			<li><span class="circle"></span>
+				<img src="img/yaokong.png"/>
+				<h4>网易智造遥控小飞蛋</h4>
+				<p>白色</p>
+				<span class="price">¥149.00</span>
+				<span class="x">x</span>
+				<span class="num">1</span>
+				<span class="more" id="more3"><i class="icon-plus"></i></span>
+				<input type="text" class="num_text" id="num3" value="1">
+				<span class="less" id="less3"><i class="icon-minus"></i></span>
+			</li>
+			<!--第四个-->
+			<li><span class="circle"></span>
+				<img src="img/light.png"/>
+				<h4>网易智造子弹头车载充电器</h4>
+				<p>冰川银</p>
+				<span class="price">¥59.00</span>
+				<span class="x">x&nbsp;&nbsp;</span>
+				<span class="num">1</span>
+				<span class="more" id="more4"><i class="icon-plus"></i></span>
+				<input type="text" class="num_text" id="num4" value="1">
+				<span class="less" id="less4"><i class="icon-minus"></i></span>
+			</li>
+			
+			
+			<!--底部全选下单栏-->
+			<div class="pay_div">
+				<span class="select_all"></span>
+				<span>已选(<label id="totle_num">0</label>)</span>
+				<span id="pay">下单</span>
+				<span>¥<label id="totle_money">0.00</label></span>
+				<div class="edit"><span id="delete">删除所选</span></div>
+			</div>
+			<ul class="tabs">
+				<li><i class="icon-home"></i><a href="../../homepage-yd.html">首页</a></li>
+				<li><i class="icon-columns"></i><a href="../../答辩项目/手机页面.html">识物</a></li>
+				<li><i class="icon-tasks"></i><a href="../../企业采购/网易严选移动端注册页面.html">分类</a></li>
+				<li class="shopcar"><i class="icon-shopping-cart"></i><a href="../../">购物车</a><span class="circle_num">4</span></li>
+				<li><i class="icon-user"></i><a href="../../网易严选/loginapp.html">个人</a></li>
+			</ul>
+		</div>
+		<div class="warn_background"></div>
+		<div class="warnning">
+				<label>要删除所选的商品？</label>
+				<span class="cancel">取消</span>
+				<span class="delete">删除</span>
+		</div>
+		<span id="cannot_less">本商品一件起售</span>
+		<span id="cannot_more">达到单次添加上限</span>
+		<script type="text/javascript" src="js/ShopCar.js"></script>
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript">
+            if($('#isPC').css('display')=="none"){
+                location.href='../index.html';
+            }
+//			第一个
+			$("#less1").click(function(){
+				if ($("#num1").val()==1){
+				    $("#cannot_less").fadeIn(0);
+				}
+				setTimeout(function(){
+					$("#cannot_less").fadeOut(800);
+				},1500)
+			})
+			$("#more1").click(function(){
+				if ($("#num1").val()==50){
+				    $("#cannot_more").fadeIn(0);
+				}
+				setTimeout(function(){
+					$("#cannot_more").fadeOut(800);
+				},1500)
+			})
+			
+//			第二个
+            $("#less2").click(function(){
+				if ($("#num2").val()==1){
+				    $("#cannot_less").fadeIn(0);
+				}
+				setTimeout(function(){
+					$("#cannot_less").fadeOut(800);
+				},1500)
+			})
+			$("#more2").click(function(){
+				if ($("#num2").val()==50){
+				    $("#cannot_more").fadeIn(0);
+				}
+				setTimeout(function(){
+					$("#cannot_more").fadeOut(800);
+				},1500)
+			})
+			
+//			第三个
+			$("#less3").click(function(){
+				if ($("#num3").val()==1){
+				    $("#cannot_less").fadeIn(0);
+				}
+				setTimeout(function(){
+					$("#cannot_less").fadeOut(800);
+				},1500)
+			})
+			$("#more3").click(function(){
+				if ($("#num3").val()==50){
+				    $("#cannot_more").fadeIn(0);
+				}
+				setTimeout(function(){
+					$("#cannot_more").fadeOut(800);
+				},1500)
+			})
+//			第四个
+			$("#less4").click(function(){
+				if ($("#num4").val()==1){
+				    $("#cannot_less").fadeIn(0);
+				}
+				setTimeout(function(){
+					$("#cannot_less").fadeOut(800);
+				},1500)
+			})
+			$("#more4").click(function(){
+				if ($("#num4").val()==50){
+				    $("#cannot_more").fadeIn(0);
+				}
+				setTimeout(function(){
+					$("#cannot_more").fadeOut(800);
+				},1500)
+			})
+		</script>
+	</body>
+</html>

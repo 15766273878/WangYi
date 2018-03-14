@@ -1,0 +1,442 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.advertisement {
+  width: 15rem;
+  height: 1.8rem;
+  background: black;
+  font-size: 0.26rem;
+  color: white;
+  line-height: 0.6rem;
+  padding-top: 0.4rem;
+}
+.advertisement .close {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  background: url(../img/ico.png);
+  background-position: 0rem 11.2rem;
+  background-size: 3.2rem;
+  float: left;
+  margin-left: 0.4rem;
+  margin-top: 0.26rem;
+}
+.advertisement .logo {
+  width: 1.44rem;
+  height: 1.44rem;
+  display: block;
+  background: url(../img/ico.png);
+  background-position: -0.02rem 2.96rem;
+  background-size: 3.5rem;
+  float: left;
+  margin-left: 0.06rem;
+}
+.advertisement h3 {
+  margin-left: 0.26rem;
+  margin-top: 0.1rem;
+  float: left;
+}
+.advertisement label {
+  position: relative;
+  top: 0.76rem;
+  left: -2rem;
+}
+.advertisement .open_app {
+  width: 2.76rem;
+  height: 1.06rem;
+  display: block;
+  background: #b4282d ;
+  color: white;
+  float: right;
+  border-radius: 0.08rem;
+  line-height: 1.06rem;
+  text-align: center;
+  margin-right: 0.4rem;
+  margin-top: -0.4rem;
+}
+.title {
+  width: 15rem;
+  height: 1.8rem;
+}
+.title label {
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  margin-left: 6rem;
+}
+.title a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.64rem;
+  float: right;
+  line-height: 1.8rem;
+  margin-right: 0.4rem;
+}
+.promise {
+  width: 15rem;
+  height: 1.4rem;
+  background: #f4f4f4;
+  font-size: 0.46rem;
+  color: gray;
+  position: relative;
+}
+.promise ul {
+  list-style-type: none;
+}
+.promise ul li {
+  float: left;
+  margin-left: 1rem;
+  line-height: 1.4rem;
+}
+.promise .circle_small {
+  width: 0.2rem;
+  height: 0.2rem;
+  display: block;
+  border: 1px solid gray;
+  border-radius: 50%;
+  float: left;
+  margin-top: 0.54rem;
+  margin-right: 0.12rem;
+}
+.promise #enough_tips {
+  width: 14.6rem;
+  height: 1.4rem;
+  display: none;
+  background: #fff8d8;
+  color: #f48f18;
+  position: absolute ;
+  top: 0rem;
+  left: 0rem;
+  float: left;
+  line-height: 1.4rem;
+  padding-left: 0.4rem;
+}
+.more_tips {
+  width: 15rem;
+  height: 1.8rem;
+  font-size: 0.46rem;
+}
+.more_tips span {
+  border: 1px solid #f7ae58;
+  color: #f49422;
+  border-radius: 0.08rem;
+  padding: 0.06rem 0.14rem;
+  margin-left: 0.6rem;
+  line-height: 1.8rem;
+}
+.more_tips #enough {
+  color: #bf494d;
+}
+.more_tips a {
+  width: 2rem;
+  height: 1.2rem;
+  display: block;
+  border-left: 1px solid #eeeeee;
+  text-decoration: none;
+  color: black;
+  padding: 0 0.2rem 0 0.4rem;
+  float: right;
+  margin-top: 0.3rem;
+  line-height: 1.2rem;
+}
+.body {
+  width: 15rem;
+  height: 24rem;
+  background: #f4f4f4;
+  padding-top: 0.1rem;
+}
+.body li {
+  list-style-type: none;
+  width: 15rem;
+  height: 4.2rem;
+  margin-top: 0.4rem;
+  background: white;
+  position: relative;
+  font-size: 0.54rem;
+}
+.body li .presell {
+  width: 3.2rem;
+  height: 0.8rem;
+  display: block;
+  background: #f4a344;
+  color: white;
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 0.8rem;
+  position: relative;
+  top: -1.16rem;
+  left: 2.4rem;
+}
+.body .circle {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: block;
+  background: url(../img/choose.png);
+  background-position: 0 -895px;
+  position: absolute;
+  top: 1.4rem;
+  left: 0.6rem;
+}
+.body img {
+  width: 3.2rem;
+  height: 3.2rem;
+  background: #f4f4f4;
+  margin: 0.5rem 0 0 2.4rem;
+}
+.body h4 {
+  font-weight: normal;
+  position: absolute;
+  top: 0.5rem;
+  left: 6rem;
+}
+.body p {
+  color: gray;
+  position: absolute;
+  top: 1.2rem;
+  left: 6rem;
+}
+.body .price {
+  position: absolute;
+  top: 2.4rem;
+  left: 6rem;
+}
+.body .x {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.9rem;
+}
+.body .num {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+}
+.body .less {
+  width: 1.6rem;
+  height: 1rem;
+  display: block;
+  border: 0.06rem solid #eeeeee;
+  border-radius: 0.14rem 0 0 0.14rem;
+  color: #eeeeee;
+  text-align: center;
+  line-height: 1rem;
+  position: absolute;
+  top: 2.4rem;
+  right: 3.64rem;
+}
+.body .num_text {
+  width: 1.4rem;
+  height: 0.94rem;
+  text-align: center;
+  border: 0.1rem solid #a9a9a9;
+  position: absolute;
+  top: 2.4rem;
+  right: 2.06rem;
+}
+.body .more {
+  width: 1.6rem;
+  height: 1rem;
+  display: block;
+  border: 0.06rem solid #a9a9a9;
+  border-radius: 0 0.14rem 0.14rem 0;
+  color: gray;
+  text-align: center;
+  line-height: 1rem;
+  position: absolute;
+  top: 2.4rem;
+  right: 0.4rem;
+}
+.pay_div {
+  width: 15rem;
+  height: 2rem;
+  border: 0.02rem solid #eeeeee;
+  background: white;
+  position: fixed;
+  bottom: 2rem;
+  font-size: 0.5rem;
+}
+.pay_div .select_all {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: block;
+  background: url(../img/choose.png);
+  background-position: 0 -895px;
+  position: absolute;
+  top: 1.4rem;
+  left: 0.6rem;
+  margin-top: -1rem;
+}
+.pay_div span:nth-child(2) {
+  line-height: 2rem;
+  margin-left: 2.2rem;
+}
+.pay_div #pay {
+  width: 4.5rem;
+  height: 2rem;
+  display: block;
+  background: #cccccc;
+  line-height: 2rem;
+  text-align: center;
+  color: white;
+  float: right;
+}
+.pay_div span:nth-child(4) {
+  color: #c04a4e;
+  float: right;
+  line-height: 2rem;
+  margin-right: 0.46rem;
+}
+.tabs {
+  width: 15rem;
+  height: 2rem;
+  background: #fafafa;
+  position: fixed;
+  bottom: 0rem;
+}
+.tabs li {
+  width: 2rem;
+  background: #fafafa;
+  float: left;
+  margin-left: 1rem;
+  position: relative;
+}
+.tabs li i {
+  font-size: 1rem;
+  color: #7f7f7f;
+  padding-left: 0.34rem;
+}
+.tabs li a {
+  color: #7f7f7f;
+  position: absolute;
+  top: 0.9rem;
+  left: 0.2rem;
+  text-decoration: none;
+}
+.tabs li .circle_num {
+  width: 0.7rem;
+  height: 0.7rem;
+  display: block;
+  background: #b4282d;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.7rem;
+  color: white;
+  position: absolute;
+  top: -0.1rem;
+  left: 1.3rem;
+}
+.tabs .shopcar i {
+  color: #b4282d;
+}
+.tabs .shopcar label {
+  color: #b4282d;
+}
+#cannot_less {
+  width: 6rem;
+  height: 1.6rem;
+  display: none;
+  font-size: 0.5rem;
+  color: white;
+  line-height: 1.6rem;
+  text-align: center;
+  background: black;
+  border-radius: 0.2rem;
+  position: fixed;
+  top: 13rem;
+  left: 4.5rem;
+}
+#cannot_more {
+  width: 6rem;
+  height: 1.6rem;
+  display: none;
+  font-size: 0.5rem;
+  color: white;
+  line-height: 1.6rem;
+  text-align: center;
+  background: black;
+  border-radius: 0.2rem;
+  position: fixed;
+  top: 13rem;
+  left: 4.5rem;
+}
+.edit {
+  width: 11rem;
+  height: 2rem;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  background: white;
+  display: none;
+}
+.edit #delete {
+  width: 4.5rem;
+  height: 2rem;
+  display: block;
+  background: #cccccc;
+  line-height: 2rem;
+  text-align: center;
+  color: white;
+  float: right;
+}
+.warn_background {
+  width: 100%;
+  height: 32rem;
+  background: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  z-index: 1;
+  display: none;
+}
+.warnning {
+  display: none;
+  width: 12rem;
+  height: 6rem;
+  background: white;
+  opacity: 1;
+  border-radius: 0.2rem;
+  border: 0.02rem solid #dcdcdc;
+  position: fixed;
+  z-index: 2;
+  top: 10rem;
+  left: 1.5rem;
+}
+.warnning label {
+  font-size: 0.6rem;
+  position: relative;
+  top: 1.2rem;
+  left: 3.4rem;
+}
+.warnning .cancel {
+  width: 5.98rem;
+  height: 2rem;
+  display: block;
+  border: 0.02rem solid #dcdcdc;
+  border-radius: 0 0 0 0.2rem;
+  position: relative;
+  bottom: -2.68rem;
+  left: 0rem;
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.warnning .cancel:hover {
+  background: gainsboro;
+}
+.warnning .delete {
+  width: 5.98rem;
+  height: 2rem;
+  display: block;
+  border: 0.02rem solid #dcdcdc;
+  border-radius: 0 0 0.2rem 0;
+  position: relative;
+  bottom: -0.64rem;
+  right: -6rem;
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 2rem;
+  color: red;
+}
+.warnning .delete:hover {
+  background: gainsboro;
+}
